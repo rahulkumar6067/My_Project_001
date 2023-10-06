@@ -1,0 +1,93 @@
+.navbar {
+    padding: 4.5%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.icons i {
+    margin-left: 28px;
+    font-size: 1.2rem;
+}
+
+.logos i {
+    margin-left: 28px;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100%;
+}
+
+.lists {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.lists ul li {
+    display: inline;
+}
+
+.lists ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.lists ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.para-title {
+    position: relative;
+    top: 14rem;
+    margin-left: 15%;
+    font-size: 3.9rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para {
+    position: relative;
+    top: 16rem;
+    margin-left: 15%;
+    font-size: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    position: relative;
+    top: 9rem;
+    margin-left: 13%;
+}
+
+.btn-dark:hover {
+    background-color: rgb(237, 203, 13);
+    color: black;
+}
+
+.btn-dark {
+    width: 13rem;
+    height: 3.8rem;
+    border-radius: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container2 {
+    background-image: url("https://demo.creativethemes.com/blocksy/modern-shop/wp-content/uploads/2020/03/andrew-neel-jtsW-Z6bFw-unsplash.jpg");
+    background-size: cover;
+    height: 910px;
+}
