@@ -5,8 +5,6 @@
     display: flex;
     width: 100%;
   }
-  
-  
   .bdy-top {
     padding: 10%;
     display: flex;
@@ -124,7 +122,7 @@
   }
   
   .c3-right {
-    background: url("https://img.freepik.com/free-photo/retro-brown-man-leather-bag-bright-colorful-summer-park-hanging-leafes_158538-12259.jpg?size=626&ext=jpg&ga=GA1.1.123665211.1695015158&semt=sph");
+    background: url("https://img.freepik.com/free-photo/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand_335224-1356.jpg?size=626&ext=jpg&ga=GA1.1.123665211.1695015158&semt=sph");
     background-repeat: no-repeat;
     margin-top: 0;
     background-size: cover;
@@ -304,9 +302,9 @@
     align-items: center;
   }
   
-  .yellow {
+  /* .yellow {
     color: rgb(255, 213, 0);
-  }
+  } */
   
   /* .star_rating {
     display: flex;
