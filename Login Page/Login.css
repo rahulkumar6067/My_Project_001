@@ -5,7 +5,16 @@
   display: flex;
   width: 100%;
 }
-
+@media screen and (max-width:768px) {
+  .icons, .logos{
+    display: none;
+  }
+}
+@media screen and (max-width:425px) {
+  .icons, .logos{
+    display: none;
+  }
+}
 
 .bdy-top {
   padding: 10%;
@@ -61,6 +70,15 @@
   justify-content: center;
   width: 100%;
   padding-top: 1%;
+}
+@media only screen and (max-width:425px){
+.lists ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+} 
 }
 
 .container9 {
@@ -209,14 +227,14 @@ ul {
 }
 
 /*responsive*/
-@media(max-width: 767px) {
+@media(max-width: 768px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
 }
 
-@media(max-width: 574px) {
+@media(max-width: 425px) {
   .footer-col {
     width: 100%;
   }
